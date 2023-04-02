@@ -4,11 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Ex1();
-            Ex2();
-            EX3();
-            Ex4();
-
+            // Ex1();
+            // Ex2();
+            // EX3();
+            // Ex4();
         }
         static void Ex1() 
         {
@@ -29,6 +28,7 @@
             product1.LowPrice();
             Console.WriteLine(product1.ToString());
         }
+
         static void Ex2() 
         {
             Device[] device =
@@ -47,6 +47,7 @@
                 Console.WriteLine();
             }
         }
+
         static void EX3() 
         {
             MusicalInstruments[] musicalInstruments =
@@ -74,7 +75,8 @@
                 Console.WriteLine();
             }
         }
-        static void Ex4()
+
+        static void Ex4() 
         {
             Worker[] workers =
             {
